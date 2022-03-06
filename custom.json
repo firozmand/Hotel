@@ -1,0 +1,9 @@
+{"tags": [
+    "swiper"
+  ],
+  "name": "Swiper - Autoplay",
+  "dependencies": {
+    "swiper": "latest",
+    "parcel-bundler": "^1.6.1"
+  }
+}
