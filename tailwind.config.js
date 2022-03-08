@@ -1,12 +1,11 @@
 module.exports = {
-  content: ["./index.html"],
+  content: ["./index.html","./Facilities.html","./Rooms.html","./Contact-us.html"],
   theme: {
     extend: {
       backgroundImage: {
-        'HomePage': "url('/src/HomePage.png')",
-        'headerph': "url('/src/headerph.png')",
+        'footer': "url('/src/footer.png')",
       }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
