@@ -7,3 +7,15 @@
 .swiper-pagination-bullet-active{
     background: white !important;
 }
+  
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 50% !important;
+    left: auto;
+    top: 80%;
+  }
+  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 50%;
+    right: auto;
+    top: 80%;
+
+  }
